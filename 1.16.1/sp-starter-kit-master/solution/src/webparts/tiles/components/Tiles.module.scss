@@ -1,0 +1,18 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.tiles {
+  .message {
+    @include ms-font-m;
+  }
+
+  .error {
+    @include ms-font-m;
+    color: $ms-color-alert;
+  }
+
+  .tilesList {
+    @include ms-Grid-row;
+    display: block;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-ace-hello-world-client-side-solution",
+    "id": "4d5d5de0-a811-434e-803e-37a6b2105e78",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-ace-hello-world description"
+      },
+      "longDescription": {
+        "default": "spfx-ace-hello-world description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-ace-hello-world Feature",
+        "description": "The feature that activates elements of the spfx-ace-hello-world solution.",
+        "id": "ede6252c-43cb-42f3-ba4b-f90a66a4ddc2",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-ace-hello-world.sppkg"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pn-p-controls-client-side-solution",
+    "id": "fbd24bc6-f0de-4539-9d30-0472b189c9fa",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PnPControls description"
+      },
+      "longDescription": {
+        "default": "PnPControls description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pn-p-controls Feature",
+        "description": "The feature that activates elements of the pn-p-controls solution.",
+        "id": "ebfca425-7e5c-4f59-b3a2-c4c35264aead",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pn-p-controls.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "environment": "spo",
+    "libraryName": "js-application-redirect",
+    "libraryId": "16ba7527-a398-43f7-9f20-7b050e49887e",
+    "packageManager": "npm",
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

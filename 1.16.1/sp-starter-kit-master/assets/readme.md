@@ -1,0 +1,1 @@
+SP Starter Kit Assets folder

@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "field-customizer",
+    "libraryId": "628a00c0-6ef3-42e2-a329-829842a3e83a",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "field-customizer",
+    "solutionShortDescription": "field-customizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}

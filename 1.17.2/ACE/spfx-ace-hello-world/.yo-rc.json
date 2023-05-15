@@ -1,0 +1,23 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "spfx-ace-hello-world",
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "spfx-ace-hello-world",
+    "libraryId": "4d5d5de0-a811-434e-803e-37a6b2105e78",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionShortDescription": "spfx-ace-hello-world description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "Image"
+  }
+}

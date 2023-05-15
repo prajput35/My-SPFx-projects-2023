@@ -1,0 +1,15 @@
+.fieldCustomizer {
+  background-color: "[theme:themePrimary, default:#0078d4]";
+  color: "[theme:white, default:#ffffff]";
+  text-align: center;
+  padding: 0.5rem;
+}
+.HelloFieldCustomizer {
+  .cell {
+    display: 'inline-block';
+  }
+  .filledBackground {
+    background-color: #cccccc;
+    width: 100px;
+  }
+}

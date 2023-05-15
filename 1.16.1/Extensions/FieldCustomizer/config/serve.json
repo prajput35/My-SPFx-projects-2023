@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://rajputp.sharepoint.com/Lists/Work%20status/AllItems.aspx",
+      "fieldCustomizers": {
+        "PercentComplete": {
+          "id": "f51ebe65-ea7e-4097-9d70-b721a6ec6df1",
+          "properties": {
+            "greenMinLimit": "85",
+            "yellowMinLimit": "70"
+          }
+        }
+      }
+    },
+    "fieldCustomizer": {
+      "pageUrl": "https://rajputp.sharepoint.com/Lists/Work%20status/AllItems.aspx",
+      "fieldCustomizers": {
+        "PercentComplete": {
+          "id": "f51ebe65-ea7e-4097-9d70-b721a6ec6df1",
+          "properties": {
+            "greenMinLimit": "85",
+            "yellowMinLimit": "70"
+          }
+        }
+      }
+    }
+  }
+}

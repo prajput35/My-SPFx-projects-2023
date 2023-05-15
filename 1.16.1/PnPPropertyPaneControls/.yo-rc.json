@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "pn-p-controls",
+    "libraryId": "fbd24bc6-f0de-4539-9d30-0472b189c9fa",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "PnPControls",
+    "solutionShortDescription": "PnPControls description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

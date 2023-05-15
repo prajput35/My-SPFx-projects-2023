@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "spfx-ace",
+    "libraryId": "0fa41f4f-2f7a-4045-9c56-dc10d388953b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-ace",
+    "solutionShortDescription": "spfx-ace description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "PrimaryText"
+  }
+}
