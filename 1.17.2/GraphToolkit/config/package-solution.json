@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-toolkit-applictions-client-side-solution",
+    "id": "f118a7e3-7566-4b4c-aebe-805a9f36a6e4",
+    "version": "1.0.0.4",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "graph-toolkit-applictions description"
+      },
+      "longDescription": {
+        "default": "graph-toolkit-applictions description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      }
+    ],
+    "features": [
+      {
+        "title": "graph-toolkit-applictions Feature",
+        "description": "The feature that activates elements of the graph-toolkit-applictions solution.",
+        "id": "e48f4d5f-836b-4b10-b90a-5e92dc414faf",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/graph-toolkit-applictions.sppkg"
+  }
+}
