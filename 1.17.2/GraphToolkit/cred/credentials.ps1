@@ -5,7 +5,7 @@ param(
 )
 
 # Import the SharePointPnPPowerShellOnline module
-Import-Module SharePointPnPPowerShellOnline
+Import-Module PNP.PowerShell
 
 # Create a secure string from the client secret
 $secureClientSecret = ConvertTo-SecureString -String $ClientSecret -AsPlainText -Force
