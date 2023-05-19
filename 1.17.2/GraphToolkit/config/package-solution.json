@@ -3,7 +3,7 @@
   "solution": {
     "name": "graph-toolkit-applictions-client-side-solution",
     "id": "f118a7e3-7566-4b4c-aebe-805a9f36a6e4",
-    "version": "1.0.0.4",
+    "version": "1.0.0.5",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
