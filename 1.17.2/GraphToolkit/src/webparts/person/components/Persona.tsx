@@ -34,7 +34,7 @@ const PersonaCustomRenderExample: React.FunctionComponent<IPersonProps> = (
     text: user.displayName,
     secondaryText: user.jobTitle,
     tertiaryText: user.businessPhones[0],
-    optionalText: "Available at 6:00pm",
+    optionalText: "Available at 18:00",
     imageAlt: `${user.displayName} is busy`,
   };
 
