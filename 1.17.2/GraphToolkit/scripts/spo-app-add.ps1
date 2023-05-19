@@ -17,6 +17,8 @@ Param(
     [string]$packageName,
     [Parameter(Mandatory = $true)]
     [string]$URL,
+    [Parameter(Mandatory = $true)]
+    [string]$Site,
     [Parameter(Mandatory = $false)]
     [boolean]$IsAdd = $true,
     [Parameter(Mandatory = $false)]
@@ -80,7 +82,7 @@ function installCustomApp {
     )
 
     Write-Host "Installing App with ID : $AppId"
-    m365 spo app install --id $AppId --siteUrl $URL
+    m365 spo app install --id $AppId --siteUrl $Site
 }
 
 function checkIfAppIsInstalled {
