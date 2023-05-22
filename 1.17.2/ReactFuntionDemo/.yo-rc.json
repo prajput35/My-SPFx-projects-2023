@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "react-funtion-demo",
+    "libraryId": "4521bd85-8506-4b51-a41e-db20c4ca8981",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-funtion-demo",
+    "solutionShortDescription": "react-funtion-demo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

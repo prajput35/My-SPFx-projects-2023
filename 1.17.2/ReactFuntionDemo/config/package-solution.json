@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-funtion-demo-client-side-solution",
+    "id": "4521bd85-8506-4b51-a41e-db20c4ca8981",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "react-funtion-demo description"
+      },
+      "longDescription": {
+        "default": "react-funtion-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-funtion-demo Feature",
+        "description": "The feature that activates elements of the react-funtion-demo solution.",
+        "id": "0fa3ad1b-2ad1-4361-9ee2-5eb12e89d08d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-funtion-demo.sppkg"
+  }
+}

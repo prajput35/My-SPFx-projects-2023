@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cl-to-fc-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/clToFc/ClToFcWebPart.js",
+          "manifest": "./src/webparts/clToFc/ClToFcWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ClToFcWebPartStrings": "lib/webparts/clToFc/loc/{locale}.js"
+  }
+}
