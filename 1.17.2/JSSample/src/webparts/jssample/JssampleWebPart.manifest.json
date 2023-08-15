@@ -22,7 +22,7 @@
     "description": { "default": "jssample description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "jssample"
+      "description": "Sample Js project"
     }
   }]
 }
