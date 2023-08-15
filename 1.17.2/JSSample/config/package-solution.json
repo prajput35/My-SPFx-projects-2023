@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "js-sample-client-side-solution",
+    "id": "6a6a78d4-cab2-4a02-bf41-561bd422a7e8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "js-sample description"
+      },
+      "longDescription": {
+        "default": "js-sample description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "js-sample Feature",
+        "description": "The feature that activates elements of the js-sample solution.",
+        "id": "247f965e-f627-43a0-bf6d-c5fafcb05665",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/js-sample.sppkg"
+  }
+}
